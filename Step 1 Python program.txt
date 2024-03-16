@@ -1,0 +1,22 @@
+# Online Python-3 Compiler (Interpreter)
+
+# It is assumed that the scanning of friuts creates a list 
+
+list=["apple","apple","orange","apple"]
+
+total_oranges=0
+total_apples=0
+
+for n in list:
+    total_oranges=total_oranges+n.count("orange")
+    total_apples=total_apples+n.count("apple")
+    
+print ("total_oranges = ",total_oranges)
+print ("total_apples = ",total_apples) 
+
+price_of_apple = 0.60
+price_of_orange = 0.25
+
+
+total_price = total_oranges*price_of_orange + total_apples*price_of_apple
+print("total_price = £",total_price)
